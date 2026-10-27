@@ -1,0 +1,35 @@
+{
+  "name": "dsh-chat-mode",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Chat mode for DeepSeek Harness: a conversational agent preset with web search, file and image reading, and history compaction, shown in the new-session mode picker next to Standard, PTC, Minimal and Creator.",
+  "files": [
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "dsh-bundle",
+    "agent-preset",
+    "chat",
+    "mode"
+  ],
+  "author": "stopperino",
+  "license": "MIT",
+  "homepage": "https://github.com/stopperino/dsh-chat-mode#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stopperino/dsh-chat-mode.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stopperino/dsh-chat-mode/issues"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}
